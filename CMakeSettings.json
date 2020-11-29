@@ -1,0 +1,25 @@
+﻿{
+  "configurations": [
+	{
+	  "name": "x64-Debug",
+	  "generator": "Ninja",
+	  "configurationType": "Debug",
+	  "inheritEnvironments": [ "msvc_x64_x64" ],
+	  "buildRoot": "${projectDir}\\out\\build\\${name}",
+	  "installRoot": "${projectDir}\\out\\install\\${name}",
+	  "cmakeCommandArgs": "",
+	  "buildCommandArgs": "",
+	  "ctestCommandArgs": "",
+	  "variables": [
+		{
+		  "name": "OpenCL_INCLUDE_DIR",
+		  "value": "D:/Development/OpenCL-ICD-Loader/inc"
+		},
+		{
+		  "name": "OpenCL_LIBRARY",
+		  "value": "D:\\Development\\OpenCL-ICD-Loader\\out\\install\\x64-Release\\lib\\OpenCL.lib"
+		}
+	  ]
+	}
+  ]
+}
